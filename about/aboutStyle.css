@@ -1,0 +1,65 @@
+.nav-bar-section {
+    border: 2px solid black;
+    padding: 50px 50px 0 ;
+    background-color: black;
+    color: white;
+}
+
+.myself h1 {
+    margin: 0;
+    padding-left: 5%;
+}
+
+.hobies h2{
+    margin: 0%;
+    height: 500px;
+    background: cover;
+    color: whitesmoke;
+    padding: 5% 5% 0;
+}
+
+.hobbies-section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.Hlist ul {
+    list-style: none;
+    color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+    .Hlist ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 110px;
+    }
+}
+
+.map {
+    display: flex;
+    padding: 2%;
+    background: url(../images/waterTown.jpg) center;
+    filter: grayscale(80%);
+}
+
+.coverage .town {
+    padding: 5%;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .coverage .map{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    iframe {
+       width: auto; 
+       height: auto;
+    }
+}
