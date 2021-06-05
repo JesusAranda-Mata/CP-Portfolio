@@ -1,0 +1,45 @@
+.myself h1 {
+    margin: 0;
+    padding-left: 5%;
+    animation: 1.5s ease-out 0s 1 h1;
+}
+
+@keyframes  h1 {
+    0% {
+        transform: translateX(2000%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+.h2-work {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+    background-position: center;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+@media (max-width: 600px) {
+    .work {
+        flex-direction: column;
+    }
+}
+
+.work .W-flex {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+}
