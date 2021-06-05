@@ -8,7 +8,17 @@
 .myself h1 {
     margin: 0;
     padding-left: 5%;
+    animation: 1.5s ease-out 0s 1 h1;
 }
+
+@keyframes  h1 {
+    0% {
+        transform: translateX(2000%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
 
 .hobies h2{
     margin: 0%;
