@@ -1,0 +1,90 @@
+.myself h1 {
+    margin: 0;
+    animation: 1.5s ease-out 0s 1 h1;
+    color: #000;
+}
+
+@keyframes  h1 {
+    0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+.myself {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+.pictures ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0%;
+}
+
+@media (max-width: 600px) {
+    .gallery .pictures ul{
+        display: ;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin:0%;
+    }
+}
+
+.pic-1 {
+    animation: pics 1.75s ease-in 0s 1;
+}
+
+.pic-2 {
+    animation: pics 1.5s ease-in 0s 1;
+}
+
+.pic-3 {
+    animation: pics 1.25s ease-in 0s 1;
+}
+
+.pic-4 {
+    animation: pics 1s ease-in 0s 1;
+}
+
+.pic-5 {
+    animation: pics 1.87s ease-in 0s 1;
+}
+
+.pic-6 {
+    animation: pics 1.62s ease-in 0s 1;
+}
+
+.pic-7 {
+    animation: pics 1.37s ease-in 0s 1;
+}
+
+.pic-8 {
+    animation: pics 1.12s ease-in 0s 1;
+}
+
+@keyframes  pics {
+    0% {
+        transform: translateX(-1000%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
