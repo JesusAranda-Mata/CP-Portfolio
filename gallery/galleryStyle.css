@@ -39,6 +39,11 @@ img {
     margin:0%;
 }
 
+.gallery {
+    height: 650px;
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     .gallery .pictures ul{
         display: ;
